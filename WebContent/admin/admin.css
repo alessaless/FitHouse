@@ -1,0 +1,81 @@
+	body{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.containerMessaggio{
+		display: flex;
+		justify-content: center;
+	}
+
+	span{
+		font-weight:bolder;
+		display:block;
+	}
+	
+	.ricercaImg{
+		width:30px;
+	}
+	
+	select, input, textarea{
+		width: 300px;
+	}
+	
+	input, select{
+		height:30px;
+	}
+	
+	table{
+		width:100%;
+	}
+	
+	table, tr, th {
+		border:1px solid black;
+		border-collapse: collapse;
+		text-align:left;
+	}
+	
+	tr{
+		font-size: 17px;
+		height: 40px;
+	}
+	
+	tr:nth-child(even) {background: #e4e4e4}
+	tr:nth-child(odd) {background: #FFF}
+	
+	th{
+		font-weight:300;
+	}
+	
+	a {
+	  text-decoration: none;
+	}
+	
+	#messaggioConferma{
+		width:50%;
+		height:200px;
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		font-size: 30px;
+		margin-top: 30px;
+		-webkit-box-shadow: 5px 5px 15px 0px rgba(209,209,209,0.88); 
+		box-shadow: 5px 5px 15px 0px rgba(209,209,209,0.88);
+		border-radius: 5px;
+	}
+	
+	.chiudiMessaggio{
+		width: 30px;
+		height:auto;
+		position: absolute;
+		left: 72%;
+		top:60px;
+	}
+	
+	.confermaMessaggioGif{
+		width: 190px;
+		height:auto;
+	}
+	
+	.grassetto{
+		font-weight:bolder;
+	}

@@ -1,0 +1,219 @@
+@media screen and (max-width: 768px) {
+.paragrafo{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+span{
+	height:auto;	
+}
+
+.info2{
+	float: left;
+}
+
+.socialNetwork{
+    float: right;
+}
+
+.fotopagamento{
+	display:flex;
+}
+
+.fotopag{
+	margin-right:5%;
+}
+
+}
+
+@media screen and (max-width: 992px){
+	.paragrafo{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+}
+
+.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+	
+	/* Modal Content/Box */
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: 15% auto; /* 15% from the top and centered */
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 80%; /* Could be more or less, depending on screen size */
+	}
+	
+	/* The Close Button */
+	.close {
+	  color: #aaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+	  color: black;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
+
+
+
+.news{
+	width:100%;
+    height: auto;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+
+.header1{
+    margin-bottom: 0px;
+}
+
+.paragrafo{
+    margin-top: 0px;
+}
+
+.barra{
+    width: 80%;
+    height: 40px;
+    outline: 0;
+	border-width: 0 0 1px; 
+	border-color: #202124;
+	    background-color: #c4c4c4;
+}
+
+.barra:focus{
+	border-color: #ef6848;
+}
+
+.bottone{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #202124;
+    color: white;
+    text-align:center;
+}
+
+.bottone:hover{
+    cursor: pointer;
+}
+
+.informazioni{
+    padding-left: 1%;
+    padding-top: 15px;
+    width: auto;
+    height: 300px;
+    color:white;
+    background-color: #202124;
+}
+
+.informazioni1{
+    float:left;
+    width: 50%;
+}
+
+.socialLogo{
+	/*float:right;*/
+	margin-right:30px;
+	height:15%;
+}
+
+.fotopag{
+    margin-top: 0px;
+    width: 50px;
+    height: 30px;
+}
+
+.pagamento{
+    width: 100%;
+    height: fit-content;
+    float: inline-start;
+}
+
+.footer{
+	width:100%;
+	margin:0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+	font-weight:500;
+}
+
+input{
+	font-family: 'Raleway', sans-serif;
+	font-weight:500;
+}
+
+.spanpagamento{
+    margin-bottom: 0px;
+}
+
+
+.informazioniFOTO{
+    float:left;
+    width: 50%;
+}
+
+.spaninformazioni{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.underFooter{
+	color:white;
+	background-color:#202124;
+	height:auto;
+	display:flex;
+	flex-direction: row;
+	padding:30px;
+}
+
+.info{
+	width:30%;
+}
+
+.info2{
+	width:70%;
+	float:left;
+	justify-content: flex-end;
+	display: flex;
+}
+
+.metodiPagamento{
+	display:flex;
+	justify-content: space-evenly;
+	align-items:center;
+}
+
+.socialNetwork{
+	display:flex;
+	justify-content: flex-end;
+	margin-left:20px;
+}
+
+.voceFooter{
+	transition:0.2s;
+}
+
+.voceFooter:hover{
+	color:#ef6848;
+}

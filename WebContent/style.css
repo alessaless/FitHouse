@@ -1,0 +1,1169 @@
+.asottolineato{
+	text-decoration: underline;
+	color: #ef6848;
+}
+
+a{
+	text-decoration: none;	
+	color: #202124;
+		
+}
+
+/*FINE MODIFICHE PAOLO*/
+
+.conteinerrr{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap:10px;
+}
+
+.modquantita{
+	background-color: transparent;
+	color:black;
+	border:none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+.singoloordine{
+	width:70%;
+	border: 2px solid #e8e8e8;
+	border-radius: 10px;
+}
+
+.headerordine{
+	background-color: #e8e8e8;
+	border-radius: 10px;
+}
+
+.bodyordine{
+	margin-left: 0%  !important;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+}
+
+
+
+#costumer td, #costumers th {
+    padding-left: 28px !important;
+}
+
+.containerRecensioni{
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.ciascunprodotto{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.descArt{
+	margin-left: 20px;
+}
+
+.contenitoredettagli{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.prodottooo{
+	width: 70%;
+}
+
+.unodeidettagli{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.marginetto{
+	margin-left: 5px;
+}
+
+.margin{
+	margin-left: 20px;
+}
+
+.dettagliordine{
+	display:flex;
+	justify-content: space-evenly;
+	width: 70%;
+	background-color: #E6E6E6;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+}
+
+
+#passForm, #mailForm{
+	margin-top: 10px;
+}
+
+
+.contenitore{
+    display:flex; 
+    justify-content: flex-start;
+    background-image:  linear-gradient(to right, #eb4034 , #eb7a34); 
+    width: 400px;
+    height:230px;
+    border-radius: 3%;
+    box-shadow: 7px 10px 5px #c4c4c4;
+}
+
+.daticarta{
+   padding-top: 20px;
+   width: 100%;
+}
+
+.dat{
+    height: 8%;
+    width: 80%;
+    background-color: transparent;	
+    border-width: 0 0 1px; 
+	border-color: #202124;
+    font-size: 14px;
+}
+
+.estremi{
+    font-weight:bolder;
+	font-size: 14px;
+  
+}
+.dat::placeholder{
+    color: white;
+}
+
+.addBtn{
+	margin-top:7px;
+	margin-left:0px !important;
+}
+
+.grassetto{
+	font-weight: bolder;
+}
+
+
+.grass{
+	font-weight: bolder;
+	margin-left: 1%;
+	
+}
+
+
+.contenitoreRiepilogo{
+	display:flex;
+	display-wrap: wrap;
+}
+
+.immagine{
+    height: 30px;
+    margin-top: 10px;
+    
+}
+.immagine1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#costumers{
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+	
+}
+
+#costumer td, #costumers th{
+	padding: 8px;
+	
+}
+
+.bodyordine{
+	margin-left: 5%;
+	
+}
+
+.errore{
+	display:flex;
+	justify-content: center;
+	
+	
+}
+
+.errore1{
+	display:flex;
+	justify-content: center;
+	flex-direction : column;
+	align-items: center; 
+	
+}
+
+.imgerrore{
+	width: 20%;
+}
+
+.contatti{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap; 
+}
+
+@media screen and (max-width : 600px) {
+     
+   .imgerrore{
+		width: 60%;
+	} 
+     
+   .contenitore{
+       width: 95%;
+       margin:0;
+       height:212px;
+   }
+   
+   
+   
+   
+
+    .daticarta{
+        padding: 0;
+        margin-left: 10px;
+        height:100%;
+    }
+
+    .dat{
+       font-size: 10px;
+       width: 90%;
+    }
+
+    .estremi{
+        font-size: 8px;
+    }
+
+    .immagine1{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .immagine{
+        height: 20px;
+        
+    }
+    
+    .bott{
+     margin-top: 30%;
+    }
+    
+    .grass{
+     margin-left: 0%;
+    }
+    
+    .singoloordine{
+    	width: 90%;
+    }
+    
+    .headerordine{
+    	font-size: 10px;
+    }
+    
+    .descArt{
+    	display: none;
+    }
+    
+    .dettagliordine{
+    	width: 90%;
+    }
+    
+    .ciascunprodotto{
+    	width: 100%;
+    }
+    
+    .ciascunprodotto{
+    	flex-wrap: wrap;
+    }
+    
+    .dettagliordine{
+    	flex-wrap: wrap;
+    	font-size: 15px;
+    	justify-content: unset;
+    	flex-direction: column;
+    }
+    
+    .unodeidettagli{
+    	padding-left: 10px;
+    }
+    
+    
+}
+
+@media screen and (min-width : 601px) and (max-width : 1000px){
+        
+    .contenitore{
+        width: 100%;
+        margin:0;
+    }
+    
+    
+    
+    
+          
+}
+
+body{
+	background-color:white;
+	font-family: 'Raleway', sans-serif;
+	font-weight:500;
+	
+}
+input{
+	font-family: 'Raleway', sans-serif;
+	font-weight:500;
+}
+
+.div_immagine{
+	width: 20%;
+
+}
+
+.erroreMessaggio{
+	width:70px;
+	margin-top: 10px;
+	height: auto;
+}
+
+.formLabel{
+    font-weight: 700;
+}
+
+.formError{
+    display:none; 
+    color:red;
+}
+
+.tipPassword{
+	color: #b4b4b4;
+	font-size: 10px;
+}
+
+
+.div_dati{
+	display:flex; 
+	justify-content: space-around;
+	align-items: center; 
+	width: 70%;
+	 
+}
+.contenitoreProdotto{
+	display : flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+
+.img{
+	width: 40%;
+	
+}
+
+.datiProdotto{
+	width:40%;
+}
+
+.TextProdotto , .recensioniProdotto{
+	width: 90%;
+	margin-top: 30px;
+}
+
+.singolaRec{
+	width: 350px;
+	height: 150px;
+	border-radius: 15px;
+	border: 1px solid #e4e4e4;
+	-webkit-box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.51); 
+	box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.51);
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+
+hr{
+	border: 1px solid #e4e4e4;	
+}
+
+
+.singolaRec > *{
+	margin-left: 30px;
+}
+
+.titoloRec{
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.fotoProdotto1{
+	width: 100%;
+	-webkit-box-shadow: 5px 5px 12px 2px #E6E6E6; 
+     box-shadow: 5px 5px 12px 2px #E6E6E6;
+}
+
+.star{
+	width: 20px;
+	heigth: auto;
+	margin: 0 !important;
+}
+
+.selectCombinazione{
+	width: 50%;
+	height: 30px;
+	background-color: #DBDBDB;
+	border:0px;
+	font-weight: bolder;
+	font-size:12px;
+	border-radius: 3px;
+}
+.titoloProdotto{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size: 30px;
+}
+.dati{
+	font-weight:bolder;
+	font-size: 12px;	
+}
+
+.prezzoDefinitivo{
+	color:#EF6848;
+	font-size:25px;
+}
+
+.prezzoBarrato{
+	text-decoration: line-through;
+}
+
+.quantita{
+	height: 20px;
+	background-color: #DBDBDB;
+	border:0px;
+	font-weight: bolder;
+	font-size:12px;
+	border-radius: 3px;
+}
+
+#form{
+	text-align:center;
+}
+
+.dati{
+	height:40px;
+	width:50%;
+	outline: 0;
+	border-width: 0 0 1px; 
+	border-color: #202124;
+}
+
+.dati:focus{
+	border-color: #EF6848;
+
+ }
+h3{
+	font-size:30px;
+	margin:0px;
+}
+
+#contenitoreForm{
+	margin: auto;
+	width: 50%;
+	text-align:center;
+}
+
+.bottone{
+	background-color:#202124;
+	height:40px;
+	width:50%;
+	border-radius:50px;
+	color:white;
+	border:none;
+	transition:0.2s;
+	margin:5px;
+	cursor:pointer;
+	font-size:15px;
+}
+
+.bott{
+	
+	height:50px;
+	width:100%;
+	border-radius:50px;
+	color:white;
+	border:none;
+	transition:0.2s;
+	margin:5px;
+	cursor:pointer;
+	font-size:20px;
+}
+
+.ordineConfermato{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bott1:hover{
+	background-color:#EF6848;
+	color:#202124
+}
+
+.bott1{
+	margin-left:30%;
+	height:80%;
+	width: 40%;
+	border-radius:50px;
+	color:white;
+	border:none;
+	background-color: #202124;
+}
+
+.impostazioni{
+	margin: 30px;
+}
+
+.bottone:hover{
+	background-color:#EF6848;
+	color:#202124
+}
+
+.logo{
+	width:20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social{
+	width:40%;
+	cursor:pointer;
+	margin: 10px;
+	
+}
+
+.menuricerca{
+	text-align: center;
+    font-size: 20px;
+}
+
+.menu{
+	text-align:center;
+	font-size:20px;
+}
+
+.addIndirizzo{
+	display: none;
+}
+
+.singoloSelettoreRiepilogo{
+	    width: 350px;
+    height: 170px;
+    box-shadow: 4px 7px 3px #e6e6e6;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.voceMenu{
+	position: relative;
+  	display: inline-block;
+}
+
+.closeBtn{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#subcat1{
+	display:none;	
+}
+
+#subcat2{
+	display:none;
+}
+
+#subcat3{
+	display:none;
+}
+
+.subCatTelefono{
+	margin-left: 50px;
+	margin-top: 10px;
+	list-style-type: none;
+	font-weight: 700;
+}
+
+.ricerca{
+	height:40px;
+	width:50%;
+	outline: 0;
+	border-width: 0 0 1px; 
+	border-color: #c4c4c4;
+	margin-bottom:30px;
+	font-size:20px;
+}
+
+.ricerca:focus{
+	border-color: #ef6848;
+}
+
+.iconaMenu{
+	width:30px;
+	height:auto;
+	margin-left:10px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.divProdottiDellaRicerca{
+	display: none;
+	position: absolute;
+	height: 200px;
+	overflow-y: hidden;
+	z-index: 10000000000;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+  	width: 80%;
+  	margin-left: 10%;
+  	-webkit-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-moz-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-o-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	box-shadow: 0px 1px 7px -1px #E6E6E6;
+}
+
+.contenitoreAreaUtente{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.boxAreaUtente{
+	width: 200px;
+	height:200px;
+	-webkit-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-moz-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-o-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	box-shadow: 0px 1px 7px -1px #E6E6E6;
+	background-color: #f9f9f9;
+	cursor:pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+}
+
+.boxAreaUtente:hover{
+	-webkit-box-shadow: 16px 11px 15px 6px #E6E6E6; 
+box-shadow: 16px 11px 15px 6px #E6E6E6;
+}
+
+.imgBoxAreaUtente{
+	width: 80%;
+		
+}
+
+.nomeProdotto{
+	font-size:15px;
+	margin-left:5px;
+	font-weight:bolder;
+	margin-bottom:5px;
+}
+
+.contenitoreProdotti{
+	/*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, max-content));
+    grid-gap: 32px;
+    justify-content: center;
+    padding: 16px; */
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.prodotto{
+	width: 22%;
+	margin: 1.3%;
+	text-overflow: ellipsis;
+  	overflow: hidden;
+  	-webkit-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-moz-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	-o-box-shadow: 0px 1px 7px -1px #E6E6E6;
+	box-shadow: 0px 1px 7px -1px #E6E6E6;
+}
+
+.fotoProdotto{
+	width:100%;
+}
+
+.fotoProdotto:hover{
+	opacity:0.5;
+}
+
+.prezzoCancellato{
+	text-decoration: line-through;
+	margin-left:5px;
+}
+
+.carrello{
+	width:35px;
+	height:auto;
+}
+
+.circle{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border:1px solid #c4c4c4;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    transition:0.2s;
+}
+.circle:hover{
+	background-color:#ef6848;
+}
+
+.carrello:hover{
+	cursor:pointer;
+}
+
+.prezzo{
+	
+	
+	font-weight:bolder;
+	color:#ef6848;
+	margin-left:5px;
+}
+
+.testoVoceMenu:hover {
+	color:#ef6848;
+}
+
+.dropbtn {
+	background-color:transparent;
+    color: #202124;
+	font-weight:bolder;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.vociMenuTelefono{
+	margin-top:10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+    width:100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align:left;
+    background-color: #f9f9f9;
+    margin-left:10vw;
+    width:80vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+	color: #ef6848;  
+}
+
+.ContenitoreCarrello{
+	margin: 20px;
+}
+
+.fotoProd{
+	width:60%;
+}
+
+.ProdottoCarrello{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+}
+
+.cestino{
+	width: 30px;
+	
+}
+
+.voceCarrello{
+	width:15%;
+}
+
+.ProdottiCarrello{
+	width:100%;
+}
+
+.TotaleCarrello{
+	width:20%;
+	margin:30px;
+}
+
+#menuTelefono{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 100%;
+	z-index:1000;
+	background-color: #c4c4c4;
+	display:none;
+	overflow-y: scroll;	
+}
+
+#hamburgerMenu{
+	display:none;
+}
+
+.singolaCarta{
+	width: 250px;
+	height:100px;
+	box-shadow: 4px 7px 3px #e6e6e6;
+	background-color: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+.contcarte{
+	display: flex; 
+	flex-wrap: wrap;
+}
+
+.fotcarta{
+	width: 30%;
+	margin-left: 20px;
+}
+
+.datcarta{
+	width:70%;
+	
+}
+
+.singolopagamento{
+	width: 350px;
+	height:170px;
+	box-shadow: 4px 7px 3px #e6e6e6;
+	background-color: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius: 15px;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+}
+
+.indpag{
+	margin-left: 2%;
+	font-weight: bolder;
+}
+
+.contnuovopag{
+	margin-left:2%;
+}
+
+@media screen and (min-width : 601px) and (max-width : 800px){
+	
+        
+        .social{
+           width: 50%; 
+        
+        }
+        
+         .dati{
+          width: 100%;
+          margin-top:20px;
+          font-size:25px;
+         }
+
+        .bottone{
+         width: 90%;
+         margin-top:20px;
+         font-size:20px;
+         height: 60px;
+        }
+        
+        #contenitoreForm{
+         width: 90%;
+        }
+       
+       .logo{
+          width: 80%;
+       }
+       #account{
+        font-size: 30px;
+       }
+       
+       .contenitoreProdotti{
+	   	grid-template-columns: repeat(auto-fit, minmax(25%, max-content));
+	   }
+	   
+	   .prodotto{
+	   	width: 28%;
+	   	margin: 2.3%;
+	   }
+	   
+	   .ProdottiCarrello{
+	   	width:100%;
+	   } 
+	   
+       
+}
+
+.divRiepilogo{
+			padding-left: 20px;
+		}
+		
+#formCarta{
+	display: none;
+}
+
+.bottone2{
+	margin-left: 30px;
+	}
+	
+	ol{
+		padding: 0px 0px 0px 20px;
+	}
+	
+	.spanospite{
+		margin-left: 20px;
+	}
+	
+	.borderedSelector{
+		border: 1px solid #ef6848 !important;
+	}
+	
+	.singoloSelettoreRiepilogo{
+		border: 1px solid #e5e5e5;
+	}
+	
+	.singoloSelettoreRiepilogoCarta{
+		width: 350px;
+	    height: 170px;
+	    box-shadow: 4px 7px 3px #e6e6e6;
+	    background-color: #f9f9f9;
+	    display: flex;
+	    align-items: center;
+	    transition: 0.2s;
+	    margin-left: 20px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    border-radius: 15px;
+	    padding: 5px;
+	}
+		
+
+@media screen and (max-width : 600px){
+	
+		.singoloSelettoreRiepilogo, .singoloSelettoreRiepilogoCarta{
+			margin-left:0px !important;
+		}
+		
+		.divRiepilogo{
+			padding-left: 10px;
+		}
+	
+		.menu{
+			display:none;
+		}
+		
+		.div_immagine{
+			width: 100%;		
+		}
+		
+		.div_dati{
+			width: 100%;
+			display: block;
+			padding: 20px;
+		}
+		
+		.voceCar{
+			display: block;
+		}
+		
+		.modquantita{
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+		
+		#hamburgerMenu{
+			display:block;
+			margin-left: auto;
+  			margin-right: auto;
+		}
+	
+		.ProdottiCarrello{
+			width:100%;
+		}
+		
+		.ProdottoCarrello{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content: space-around;
+			align-items: center;
+			align-content: space-between;
+		}
+		
+		.voceCarrello{
+			width:50%;
+		}
+		
+		.dropbtn{
+			font-size: 25px;
+		}
+		
+		.TotaleCarrello{
+			width:100%;
+		}
+	
+        
+        .fotoProd{
+			width:100%;
+		}
+        
+        .social{
+           width: 80%; 
+        
+        }
+        
+         .dati{
+          width: 90%;
+          margin-top:20px;
+          font-size:20px;
+         }
+
+        .bottone{
+         width: 70%;
+         margin-top:20px;
+        }
+        
+        #contenitoreForm{
+         width: 90%;
+        }
+       
+       .logo{
+          width: 90%;
+       }
+       
+       .prodotto{
+       	width:80%;
+       	margin-left:10%;
+       }
+       
+       .contenitoreProdotti{
+		grid-template-columns: repeat(auto-fit, minmax(50%, max-content));
+	}
+	
+	.contenitoreProdotto{
+	  justify-content:flex-start;
+	}
+	
+	.img , .datiProdotto{
+	 width:100%;
+	}
+	
+	.datiProdotto , .TextProdotto, .recensioniProdotto{
+	 padding: 20px;
+	}
+	
+	.singolaRec{
+		width:  100%;
+	}
+	
+	.grass{
+	   margin-left: 10%;
+	}
+       
+}
+
+@media screen and (min-width : 801px) and (max-width : 1025px){
+	
+        .social{
+           width: 40%; 
+        
+        }
+        
+         .dati{
+          width: 100%;
+          margin-top:20px;
+          font-size:25px;
+         }
+
+        .bottone{
+         width: 90%;
+         margin-top:20px;
+         font-size:20px;
+         height: 60px;
+        }
+        
+        #contenitoreForm{
+         width: 90%;
+        }
+       
+       .logo{
+          width: 60%;
+       }
+       #account{
+        font-size: 30px;
+       }
+	
+		.prodotto{
+			width:27%;
+			margin-left: 3.6%;
+		}
+       
+}
